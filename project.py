@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configuração do banco de dados PostgreSQL no Railway
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:zNPLmNcGvlXdVunszbegCnONkmLHThrW@postgres.railway.internal:5432/railway")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:JCYwAuppanAEKmxGGCajhaZgvMCQKvmX@postgres.railway.internal:5432/railway")
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
